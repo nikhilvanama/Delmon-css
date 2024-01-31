@@ -172,7 +172,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title mb-2 col-sm-3">2. Allowances</h5>
-                    <!-- <div class="row mb-3">
+                    <div class="row mb-3">
                         <div class="col-sm-2">
                             <label for="days" class="form-label text-primary">Days</label>
                             <input type="text" class="form-control" id="days" name="allowance_days">
@@ -189,16 +189,12 @@
                             <label for="hoursrate" class="form-label text-primary">Hours Rate</label>
                             <input type="text" class="form-control" id="hoursrate" name="hours_rate">
                         </div>
-                    </div> -->
+                    </div>
                     <div class="row pt-2">
                         <div class="table-responsive">
                             <table class="table table-bordered datatable">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="fw-normal text-primary">Days</th>
-                                        <th scope="col" class="fw-normal text-primary">Days Rate</th>
-                                        <th scope="col" class="fw-normal text-primary">Hours</th>
-                                        <th scope="col" class="fw-normal text-primary">Hours Rate</th>
                                         <th scope="col" class="fw-normal text-primary">Currency</th>
                                         <th scope="col" class="fw-normal text-primary">Amount</th>
                                         <th scope="col" class="fw-normal text-primary">Exchange Rate</th>
@@ -209,11 +205,16 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><input type="text" class="form-control" id="allurrency" name="allowance_currency"></td>
-                                        <td><input type="text" class="form-control" id="allamount" name="allowance_amount"></td>
-                                        <td><input type="text" class="form-control" id="allexcrate" name="allowance_exrate"></td>
-                                        <td><input type="text" class="form-control" id="allvat" name="allowance_vat"></td>
-                                        <td><input type="text" class="form-control" id="alltotal" name="allowance_total"></td>
+                                        <td><input type="text" class="form-control" id="allurrency"
+                                                name="allowance_currency"></td>
+                                        <td><input type="text" class="form-control" id="allamount"
+                                                name="allowance_amount"></td>
+                                        <td><input type="text" class="form-control" id="allexcrate"
+                                                name="allowance_exrate"></td>
+                                        <td><input type="text" class="form-control" id="allvat" name="allowance_vat">
+                                        </td>
+                                        <td><input type="text" class="form-control" id="alltotal"
+                                                name="allowance_total"></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -269,18 +270,18 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title mb-2 col-sm-3">3. Hotel</h5>
-                    <!-- <div class="row mb-1">
+                    <div class="row mb-1">
                         <div class="col-12">
-                         <!-- <label for="description" class="form-label">Description</label><span class="required"> *</span> -->
-                            <textarea name="hotel_description" class="form-control" id="hotdescription" cols="20" rows="3" placeholder="Saudi Arabian Hotels"></textarea>
+                            <!-- <label for="description" class="form-label">Description</label><span class="required"> *</span> -->
+                            <textarea name="hotel_description" class="form-control" id="hotdescription" cols="20"
+                                rows="3" placeholder="Saudi Arabian Hotels"></textarea>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="row pt-2">
                         <div class="table-responsive">
                             <table class="table table-bordered datatable">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="fw-normal text-primary">Description</th>
                                         <th scope="col" class="fw-normal text-primary">Currency</th>
                                         <th scope="col" class="fw-normal text-primary">Amount</th>
                                         <th scope="col" class="fw-normal text-primary">Exchange Rate</th>
@@ -291,9 +292,12 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><input type="text" class="form-control" id="hotcurrency" name="hotel_currency"></td>
-                                        <td><input type="text" class="form-control" id="hotamount" name="hotel_amount"></td>
-                                        <td><input type="text" class="form-control" id="hotexcrate" name="hotel_exrate"></td>
+                                        <td><input type="text" class="form-control" id="hotcurrency"
+                                                name="hotel_currency"></td>
+                                        <td><input type="text" class="form-control" id="hotamount" name="hotel_amount">
+                                        </td>
+                                        <td><input type="text" class="form-control" id="hotexcrate" name="hotel_exrate">
+                                        </td>
                                         <td><input type="text" class="form-control" id="hotvat" name="hotel_vat"></td>
                                         <td><input type="text" class="form-control" id="hottotal" name="hotel_total">
                                         </td>
@@ -332,18 +336,18 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title mb-2 col-sm-3">4. Other Expenses</h5>
-                    <!-- <div class="row mb-1">
+                    <div class="row mb-1">
                         <div class="col-12">
-                          <!-- <label for="description" class="form-label">Description</label><span class="required"> *</span> -->
-                            <textarea name="other_expenses_description" class="form-control" id="description" cols="20" rows="2"></textarea>
+                            <!-- <label for="description" class="form-label">Description</label><span class="required"> *</span> -->
+                            <textarea name="other_expenses_description" class="form-control" id="description" cols="20"
+                                rows="2"></textarea>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="row pt-2">
                         <div class="table-responsive">
                             <table class="table table-bordered datatable">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="fw-normal text-primary">Description</th>
                                         <th scope="col" class="fw-normal text-primary">Currency</th>
                                         <th scope="col" class="fw-normal text-primary">Amount</th>
                                         <th scope="col" class="fw-normal text-primary">Exchange Rate</th>
@@ -353,11 +357,16 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><input type="text" class="form-control" id="oecurrency" name="other_expenses_currency"></td>
-                                        <td><input type="text" class="form-control" id="oeamount" name="other_expenses_amount"></td>
-                                        <td><input type="text" class="form-control" id="oeexcrate" name="other_expenses_exrate"></td>
-                                        <td><input type="text" class="form-control" id="oevat" name="other_expenses_vat"></td>
-                                        <td><input type="text" class="form-control" id="oetotal" name="other_expenses_total"></td>
+                                        <td><input type="text" class="form-control" id="oecurrency"
+                                                name="other_expenses_currency"></td>
+                                        <td><input type="text" class="form-control" id="oeamount"
+                                                name="other_expenses_amount"></td>
+                                        <td><input type="text" class="form-control" id="oeexcrate"
+                                                name="other_expenses_exrate"></td>
+                                        <td><input type="text" class="form-control" id="oevat"
+                                                name="other_expenses_vat"></td>
+                                        <td><input type="text" class="form-control" id="oetotal"
+                                                name="other_expenses_total"></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -403,9 +412,10 @@
 
                     <div class="row mb-3 justify-content-start">
                         <div class="col-sm-4">
-                            <label for="totaltravelcost" class="form-label text-primary">TOTAL TRAVEL COST</label>
-                            <input type="text" class="form-control" id="totaltravelcost" name="totaltravelcost">
+                            <label for="lessadvances" class="form-label text-primary">LESS ADVANCES</label>
+                            <input type="text" class="form-control" id="lessadvances" name="less_advances">
                         </div>
+
                         <div class="col-sm-4">
                             <label for="totalvat" class="form-label text-primary">TOTAL VAT</label>
                             <input type="text" class="form-control" id="totalvat" name="totalvat">
@@ -414,7 +424,6 @@
                             <label for="totaltravelcost" class="form-label text-primary">TOTAL TRAVEL COST</label>
                             <input type="text" class="form-control" id="totaltravelcost" name="totaltravelcost">
                         </div>
-                
                     </div>
                 </div>
             </div>
